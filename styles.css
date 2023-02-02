@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #7676BD;
+    color: #fff;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin: 35px 0 0;
+}
+
+header p {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 0 0 30px;
+}
+
+/* Main */
+
+form {
+    width: 38%;
+    min-width: 350px;
+    max-width: 700px;
+    background-color: #292847;
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 1rem;
+    margin: 5px 0 20px;
+    color: #808080;
+}
+
+.parenthesis {
+    font-size: 0.9rem;
+}
+
+option {
+    color: #000;
+}
+
+option:first-of-type {
+    color: #808080;
+}
+
+.recommendation,
+.recommendation-option,
+.improvement-option {
+    display: block;
+}
+
+.recommendation-option,
+.improvement-option {
+    margin: 5px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+.improvement,
+.comments-and-suggestions {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 9px;
+    resize: none;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+#submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #37AF65;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+#submit {
+    cursor: pointer;
+}
